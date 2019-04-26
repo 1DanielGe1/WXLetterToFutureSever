@@ -9,7 +9,6 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  
   <servlet>
     <servlet-name>GetIfoServlet</servlet-name>
     <servlet-class>net.zlg.wxlettertofutureserver.GetIfoServlet</servlet-class>
@@ -18,5 +17,15 @@
     <servlet-name>GetIfoServlet</servlet-name>
     <url-pattern>/GetIfoServlet</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UploadLetterPictureServlet</servlet-name>
+    <servlet-class>net.zlg.wxlettertofutureserver.UploadLetterPictureServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadLetterPictureServlet</servlet-name>
+    <url-pattern>/UploadLetterPictureServlet</url-pattern>
+  </servlet-mapping>
+  
   
 </web-app>
